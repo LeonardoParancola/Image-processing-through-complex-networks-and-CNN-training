@@ -116,7 +116,7 @@ The files are named as 'score_method_used_radius' which depends on the method us
 <b>RESULTS FILES:</b><br>
 The scripts ensemble.m, confusionMatrix.m and comparisonChart.m give the results as:
 <ul>
-  <li>the accuracy for the ensemble into the acc directory;</li>
+  <li>the scores for the ensemble into the score directory;</li>
   <li>a confusion matrix;</li>
-  <li>  chart of comparison between the methods.</li>
+  <li>charts of comparison between the methods.</li>
 </ul>  
