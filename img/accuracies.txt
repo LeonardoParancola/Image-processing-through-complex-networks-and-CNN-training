@@ -1,9 +1,0 @@
-file						|	Accuracy
-						|
-without_preprocessing				|	0.9455
-paper_radius_8					|	0.9018
-modified_radius_7				|	0.8634
-three_different_methods_radius_10		|	0.8661
-						|
-ensembleConsideringAllFiles			|	0.9393
-ensembleConsideringRadiusWithHigherAccuracy 	|	0.9607
