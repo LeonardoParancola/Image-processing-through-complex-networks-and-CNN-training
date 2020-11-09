@@ -1,7 +1,11 @@
 # Image-processing-through-complex-networks-and-CNN-training
 Leonardo Parancola, computer engineering degree thesis - UNIPD
 
-<b>EXPERIMENT FILES</b><br>
+Note that the construction of the direct graph does not consider the bidirectional case of the edges.
+To do that, simply consider > instead of >= in the diffIntensity inequality, that are respectively I(i) < I(j) and I(i) <= I(j).
+Considering the > case there can be some missing edges.
+
+<b>EXPERIMENT'S FILES</b><br>
 The script to run is AlexNet, which initializes all the useful variables and the pre-trained network.
 One important variable is 'method' that is used to choose one of the following methods:
 <ol>
@@ -113,7 +117,7 @@ The files are named as 'score_method_used_radius' which depends on the method us
 	some topological characteristics (see at the beginning of this file).
 
 
-<b>RESULTS FILES:</b><br>
+<b>RESULTS' FILES:</b><br>
 The scripts ensemble.m, confusionMatrix.m and comparisonChart.m give the results as:
 <ul>
   <li>the scores for the ensemble into the score directory;</li>
